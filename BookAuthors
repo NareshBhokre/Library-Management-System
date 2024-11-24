@@ -1,8 +1,0 @@
-CREATE TABLE BookAuthors (
-    book_id INT,
-    author_id INT
-    );
-    
-INSERT INTO BookAuthors (book_id, author_id)
-
-SELECT * FROM BookAuthors
