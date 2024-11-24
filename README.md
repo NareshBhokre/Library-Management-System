@@ -47,7 +47,7 @@ SELECT * FROM BookAuthors
 
 INSERT INTO Staff (staff_id, first_name, last_name, role)
 VALUES (1, 'Alice', 'Johnson', 'Librarian'),
-	   (2, 'Bob', 'Williams', 'Assistant');
+       (2, 'Bob', 'Williams', 'Assistant');
 
 SELECT * FROM Staff
 
