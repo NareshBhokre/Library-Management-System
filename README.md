@@ -28,7 +28,17 @@ VALUES (1, 'Harry', 'Potter')
 
 SELECT * FROM Authors
 
-3. 
+3. CREATE TABLE BookAuthors (
+    book_id INT,
+    author_id INT
+    );
+    
+INSERT INTO BookAuthors (book_id, author_id)
+VALUES (1,1)
+
+SELECT * FROM BookAuthors
+
+4. 
 
 
 
