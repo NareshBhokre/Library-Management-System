@@ -4,7 +4,7 @@ Design and Implement a Relational Database for a Library Management System
 
 Create database LibraryManagementSystem;
 
-CREATE TABLE Books (
+1. CREATE TABLE Books (
     book_id INT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     isbn VARCHAR(13) UNIQUE NOT NULL,
@@ -16,6 +16,19 @@ CREATE TABLE Books (
     VALUES (1,'The Great Gatsby', '9780743273565', 1925, 5);
 
 SELECT * FROM Books
+
+2. CREATE TABLE Authors (
+    author_id INT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL
+);
+
+INSERT INTO Authors (author_id, first_name, last_name)
+VALUES (1, 'Harry', 'Potter')
+
+SELECT * FROM Authors
+
+3. 
 
 
 
